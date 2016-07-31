@@ -29,7 +29,7 @@ To run Refine:
 * On Linux: Navigate to the folder where you’ve installed OpenRefine in a terminal window and type ‘./refine’
 * On Mac: Navigate to where you installed OpenRefine and click the OpenRefine icon
 
-The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333.If this doesn’t happen automatically you can open a web browser and type in this address.
+The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333. If this doesn’t happen automatically you can open a web browser and type in this address.
 
 ### Getting Help
 If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
@@ -48,6 +48,6 @@ There are also general and specialist tutorials about using OpenRefine available
 * [OpenRefine News (monthly round up of new blog posts, tutorials and other information)](http://openrefine.org/blog.html)
 
 ### Downloading the data
-Depending on the lesson you are using, you need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file, or [petitions-archive-list.xlsx](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/petitions-archive-list.xlsx), which is an Excel file. Make a note of the location you save the file.
+You need to download [petitions-archive-list.xlsx](https://github.com/data-lessons/dh-openrefine/raw/gh-pages/data/petitions-archive-list.xlsx), which is an Excel file. Make a note of the location you save the file.
 
 [template]: {{ site.workshop_repo }}
