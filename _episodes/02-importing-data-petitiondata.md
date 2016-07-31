@@ -1,6 +1,6 @@
 ---
 title: "Importing data into OpenRefine"
-teaching: 0
+teaching: 10
 exercises: 5
 questions:
 - "How do I get data into OpenRefine?"
@@ -28,16 +28,18 @@ To import the data for the exercises below, run OpenRefine and:
 * Click 'Create Project'
 * Choose 'Get Data from this Computer'
 * Click 'Choose Files'
-* Locate the file called which you previously downloaded 'doaj-article-sample.csv'
+* Locate the file called 'petitions-archive-list.xlsx' which you previously downloaded
 * Click 'Next'
 
 The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 
 In this case you need to:
 
-* Set the 'Character encoding' to 'UTF-8'
+* Make sure 'Store blank rows' is checked
+* Make sure 'Store blank cells as nulls'
 * Ensure the first row is used to create the column headings
-* Make sure OpenRefine doesn't try to automatically detect numbers and dates
+
+Note that you can specify the number of rows to load, and gives you the ability to discard any number of inital rows.
 
 Once you are happy click 'Create Project >>'
 
@@ -48,3 +50,4 @@ To open an existing project in OpenRefine you can click 'Open Project' from the 
 ### Going Further
 * Look at the other options on the Import screen - try changing some of these options and see how that changes the Preview and how the data appears after import.
 * Do you have access to JSON or XML data? If so the first stage of the import process will prompt you to select a 'record path' - that is the parts of the file that will form the data rows in the OpenRefine project.
+* Data citation (minor changes in delimiters were done to facilitate exercises):  Digital Archive of Massachusetts Anti-Slavery and Anti-Segregation Petitions, Massachusetts Archives, Boston MA, 2016, "Senate Unpassed Legislation 1874, S 26 adopted resolutions, SC1/series 231, Petition of Thomas B. Reed", http://dx.doi.org/10.7910/DVN/YUS6ZD, Harvard Dataverse, V2
