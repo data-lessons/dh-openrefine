@@ -49,7 +49,7 @@ To Lowercase| Converts the current value to lowercase | ```value.toLowercase()``
 To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
 Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```
 
-### Exercise 7: Correct Publisher data
+### Exercise 7: Correct Legislative action data
 * Create a text facet on the Legislative action summary column
 * Note that in the values there are two that look identical - why does this value appear twice?
 * On the Legislative action summary column use the dropdown menu to select 'Edit cells->Common transforms->Trim leading and trailing whitespace'
@@ -75,7 +75,7 @@ Next to the 'Preview' option are options to view:
 ### Exercise 8: Put Subjects into Title Case
 * Facet Subject column by text
 * Select "African meeting house school room" and "Abolition of Capital Punishment"
-* To select multiple values in the facet use the 'Include' link that appears to the right of the facet
+* To select multiple values in the facet use the 'Include' link that appears to the right of the second facet
 * See that the Subjects for these are capitalized for the first word only.
 * Click the dropdown menu on the Title column
 * Choose 'Edit cells->Transform...'
@@ -107,7 +107,7 @@ Export formats support include HTML, Excel and comma- and tab-separated value (c
 ## Data types
 Understanding data types and regular expressions will help you write more complex transformations using GREL.
 
-Data types in OpenRefine
+### Data types in OpenRefine
 Every piece of data in OpenRefine is has a 'type'. The most common 'type' is a 'string' - that is a piece of text. However there are other data types available and transformations let you convert data from one type to another where appropriate. The data types supported are:
 
 * String
@@ -177,15 +177,15 @@ You can also join arrays together to make a 'String'. The GREL expression would 
 ```
 value.split(",").sort().join(",")
 ```
-. Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
+Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
-### Exercise 10: Reverse signatory names fronm the At least 3 signatures from the petition column
+### Exercise 10: Reverse signatory names from the At least 3 signatures from the petition column
 In this exercise we are going to use both the Boolean and Array data types.
-If you look at the author column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
+If you look at the petition column, you can see that most of the signatory names are written in the natural order. However, a few have been reversed to put the family name first.
 
 We can do a crude test for reversed author names by looking for those that contain a comma:
 
-* Make sure you have already split the author names into individual cells using 'Edit cells->Split multi-valued cells' (you should have done this in exercise 5)
+* Make sure you have already split the signatory names into individual cells using 'Edit cells->Split multi-valued cells' (you should have done this in exercise 5)
 * On the At least 3 signatures from the petition column, use the dropdown menu and select 'Facet->Custom text facet...'
     * The Custom text facet function allows you to write GREL functions to create a facet
 * In the Expression box type ```value.contains(",")```

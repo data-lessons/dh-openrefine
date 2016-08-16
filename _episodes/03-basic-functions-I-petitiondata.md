@@ -53,7 +53,7 @@ You can include multiple values from the facet in a filter at one time by using 
 
 You can also 'invert' the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
-## Exercise 2: Which licences are used for articles in this file?
+## Exercise 2: Which formats are used for prayers in this file?
 * Create a facet for the 'Prayer format' column
 * What is the most common Prayer format in the file?
 * For how many files are prayer formats not applicable?
@@ -89,7 +89,7 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
-## Exercise 3: Find all publications without a DOI
+## Exercise 3: Find all petitions without a legislative action summary
 * Use the 'Facet by blank' function to find all petitions in this data set without a legislative action summary.
 
 ## Amending data through facets

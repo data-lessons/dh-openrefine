@@ -39,7 +39,7 @@ In this case you need to:
 * Make sure 'Store blank cells as nulls'
 * Ensure the first row is used to create the column headings
 
-Note that you can specify the number of rows to load, and gives you the ability to discard any number of inital rows.
+Note that you can specify the number of rows to load, and gives you the ability to discard any number of initial rows.
 
 Once you are happy click 'Create Project >>'
 
