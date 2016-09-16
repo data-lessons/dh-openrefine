@@ -1,5 +1,7 @@
 # Library Carpentry
 
+The Library Carpentry module '[OpenRefine Lessons for Digital Humanities](https://data-lessons.github.io/dh-openrefine/)' is maintained by [Juliane Schneider](https://github.com/pitviper6).
+
 ## Background
 
 Library Carpentry is a software skills training programme aimed at library and information professions. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/).
